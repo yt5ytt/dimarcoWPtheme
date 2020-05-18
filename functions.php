@@ -1,7 +1,9 @@
 <?php
   function dimarco_scripts(){
-    wp_enqueue_style('dimarcoWPtheme', get_template_directory_uri() . '/css/dimarco.css', array(), '1.0.0', 'all');
-    wp_enqueue_script('dimarcoWPskripta', get_template_directory_uri() . '/js/dimarco.js', array(), '1.0.0', 'true');
+    wp_enqueue_style('dimarcoWPtheme', 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css', array(), '1.0.0', 'all');
+    wp_enqueue_script('dimarcoWPskripta1', 'https://code.jquery.com/jquery-3.5.1.slim.min.js', array(), '1.0.0', 'true');
+    wp_enqueue_script('dimarcoWPskripta2', 'https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js', array(), '1.0.0', 'true');
+    wp_enqueue_script('dimarcoWPskripta3', 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js', array(), '1.0.0', 'true');
   }
 
   add_action('wp_enqueue_scripts', 'dimarco_scripts', );
