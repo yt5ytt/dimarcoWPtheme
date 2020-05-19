@@ -18,7 +18,6 @@
         <div class="row">
           <div class="col-xs-12 col-sm-8">
             Ovo je glavni container
-            <input type="button" value="Pošalji" />
           </div>
           <div class="col-xs-12 col-sm-4">
             Ovo bi trebalo da bude sidebar.
